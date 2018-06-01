@@ -1,0 +1,13 @@
+.header{
+    background: #242424;
+    color: #fff;
+    padding:10px;
+    margin-bottom: 15px;
+}
+.headerOpt{
+    display: flex;
+    align-items: center;
+}
+.headerOpt .logo{
+    margin-left: 15px;
+}

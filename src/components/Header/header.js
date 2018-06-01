@@ -9,12 +9,7 @@ function myFunction(){
 }
 const Header = (props) => {
     const navBars = () => (
-        <div className="stylebars" 
-            style={{
-                position:'relative',
-                zIndex:'9999'
-            }}
-        >
+        <div className="stylebars">
             <FontAwesome onClick={props.onOpenNav}  name="bars"/>
         </div>
     )
