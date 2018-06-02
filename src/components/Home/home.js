@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import Layout from '../../hoc/Layout/layout'
+import NewsSlider from '../widgets/NewsSlider/slider'
 class Home extends Component{
     render(){
         return(
-            <div><Layout/></div>
+            <div><NewsSlider/></div>
         );
     }
 }

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Style from './layout.css';
 import Header from '../../components/Header/header'
 import Footer from '../../components/Footer/footer'
 class Layout extends Component {
@@ -12,7 +11,7 @@ class Layout extends Component {
             showNav:action
         })
     }
-    render(){
+    render(props){
         return(
             <div>
                 <Header
