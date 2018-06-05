@@ -11,3 +11,10 @@
 .headerOpt .logo{
     margin-left: 15px;
 }
+*{
+    margin:0;
+}
+html{
+    max-width: 450px;
+    overflow: hidden;
+}

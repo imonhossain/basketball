@@ -6,9 +6,9 @@
 .feature-image{
     width:100%;
     height: 330px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center  !important;
+    background-repeat: no-repeat !important;
 }
 .feature-item__title{
    position: absolute;
