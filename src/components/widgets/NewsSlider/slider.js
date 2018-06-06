@@ -15,7 +15,6 @@ class NewsSlider extends Component{
         })
     }
     render(){
-        console.log(this.state.news)
         return( 
             <div className="slider-wrap"> 
                 <SliderTemplates data={this.state.news} type={this.props.type} settings={this.props.settings}/>
