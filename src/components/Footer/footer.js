@@ -1,7 +1,7 @@
 import React from 'react';
 import './footer.css';
 import { Link } from 'react-router-dom';
-import {CURRENT_YEAR} from '../../congig';
+import {CURRENT_YEAR} from '../../config';
 const Footer = () => {
     return (
         <div className="footer">
